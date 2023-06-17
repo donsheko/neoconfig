@@ -13,4 +13,8 @@ return require('packer').startup(function(use)
    branch = '0.1.x',
    requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
  }
+
+ use { "catppuccin/nvim", as = "catppuccin" }
+
+ use ('nvim-treesitter/nvim-treesitter', {run =  ':TSUpdate'})
 end)
