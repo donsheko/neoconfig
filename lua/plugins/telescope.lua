@@ -5,6 +5,6 @@ return {
     keys = {
 	{ "<leader>ff", "<cmd>Telescope find_files<cr>" },
 	{ "<C-p>", "<cmd>Telescope git_files<cr>" },
-	--{ vim.keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>') }
+	{ "<leader>fb", "<cmd>Telescope buffers<cr>" },
     }
 }
